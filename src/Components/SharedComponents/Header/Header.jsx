@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
+    const [open, setOpen] = useState(false);
     return (
         <div>
             <header id="header">
@@ -9,7 +11,7 @@ const Header = () => {
                     <div className="container custom-container">
                         <div className="row pr-3">
                             <div className="col-12">
-                                <div className="mobile-nav-toggler"><i className="fas fa-bars"></i></div>
+                                <div onClick={() => { setOpen(!open) }} className="mobile-nav-toggler"><i className="fas fa-bars"></i></div>
                                 <div className="menu-wrap">
                                     <nav className="flex justify-between items-center">
                                         <div className="logo">
@@ -22,7 +24,7 @@ const Header = () => {
                                             <ul id="menu-home-page-menu" className="navigation">
                                                 <li id="menu-item-263"
                                                     className="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-263">
-                                                    <a href="#header">HOME</a>
+                                                    <Link to="/"> <a href="">HOME</a></Link>
                                                     {/* <ul className="sub-menu">
                                                         <li id="menu-item-260"
                                                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-57 current_page_item menu-item-260">
@@ -38,23 +40,23 @@ const Header = () => {
 
                                                 <li id="menu-item-265"
                                                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-265">
-                                                    <a href="#sales">USDT BUY SELL</a>
+                                                    <a href="/#sales">USDT BUY SELL</a>
                                                 </li>
                                                 <li id="menu-item-266"
                                                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-266">
-                                                    <a href="#roadmap">iGAMING SUPPORT</a>
+                                                    <Link to="/game"> <a href="">iGAMING SUPPORT</a></Link>
                                                 </li>
                                                 <li id="menu-item-261"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-261">
-                                                    <a href="https://themedox.com/bigtech/blog/">DIGITAL MARKETING SURVICE</a>
+                                                    <a href="/D_Marketing">DIGITAL MARKETING SURVICE</a>
                                                 </li>
                                                 <li id="menu-item-264"
                                                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-264">
-                                                    <a href="#about">ABOUT US</a>
+                                                    <a href="/#about">ABOUT US</a>
                                                 </li>
                                                 <li id="menu-item-267"
                                                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-267">
-                                                    <a href="#contact-us">CONTACT US</a>
+                                                    <a href="/#contact-us">CONTACT US</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -74,7 +76,7 @@ const Header = () => {
                                     </nav>
                                 </div>
                                 {/* MOBILE MENU */}
-                                <div className="mobile-menu">
+                                <div className="mobile-men fixed top-0 right-0 w-[300px] pr-[30px] bg-blue-700 md:hidden hidden text-white ">
                                     <nav className="menu-box">
                                         <div className="close-btn"><i className="fas fa-times"></i></div>
                                         <div className="nav-logo">

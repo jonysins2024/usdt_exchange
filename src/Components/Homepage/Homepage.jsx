@@ -4,6 +4,7 @@ import Tethar from '../../assets/Tethar.jpg'
 import Contact_Form from '../Contact_Form/Contact_Form'
 import ConvertCurrency from '../convertCurrency/convertCurrency'
 const Homepage = () => {
+
     return (
         <div>
             <main class="main-area">
@@ -37,8 +38,8 @@ const Homepage = () => {
                                                         <div class="col-lg-10">
                                                             <div class="banner-content text-center">
                                                                 <div className='flex justify-center'>
-                                                                    <img decoding="async"
-                                                                        src="https://themedox.com/bigtech/wp-content/uploads/2023/03/fire.png"
+                                                                    <img className='' decoding="async"
+                                                                        src="https://i.ibb.co/dPrZ3kG/image-85-removebg-preview.png"
                                                                         alt="" />
                                                                 </div>
                                                                 <h2 class="md:text-[55px] text-[30px]  text-white font-semibold leading-[1.5em]  md:leading-[1.4em]">World Most Popular <span className='text-[#00c4f4]'>USDT</span> <br />
@@ -55,7 +56,7 @@ const Homepage = () => {
                                                                         aria-valuenow="75" aria-valuemin="0"
                                                                         aria-valuemax="100"></div>
                                                                 </div>
-                                                                <h4 class="title">85% target raised <span>1 USDT = 109.93 BDT</span></h4>
+                                                                <h4 class="title">85% target raised <span>1 USDT = 125 BDT</span></h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -126,7 +127,7 @@ const Homepage = () => {
                     </section>
                     <section
                         class="elementor-section elementor-top-section elementor-element elementor-element-f4ac265 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                        data-id="f4ac265" data-element_type="section"
+                        data-id="f4ac265" data-element_type="section" id="Partners"
                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                         <div class="elementor-container elementor-column-gap-no">
                             <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6ed8b1e"
@@ -333,7 +334,7 @@ const Homepage = () => {
                                                                         src="https://themedox.com/bigtech/wp-content/uploads/2023/03/chart.png"
                                                                         alt="" />
                                                                     <ul>
-                                                                        <li>1 USDT = 109.93 BDT</li>
+                                                                        <li>1 USDT = 125 BDT</li>
                                                                         <li>1 USDT = 0.900 EUR</li>
                                                                         <li>1 USDT = 7.08 CNY</li>
                                                                         <li>1 USDT = 83.22 INR</li>
@@ -365,7 +366,7 @@ const Homepage = () => {
                                                                             id="tabb-0573057355" role="tabpanel"
                                                                             aria-labelledby="tab-0573057355">
                                                                             <div class="chart-content-inner">
-                                                                                <h2 class="title">1 USDT = 109.93 BDT</h2>
+                                                                                <h2 class="title">1 USDT = 125 BDT</h2>
                                                                                 <p>The World’s Most Popular Currency Exchange Platform That Offers Rewards and The platform helps investors to make easy to purchase and sell their tokens
                                                                                 </p>
                                                                                 {/* <a href="https://buy.volleytoken.io/"
@@ -447,14 +448,14 @@ const Homepage = () => {
                                                                             <span class="roadmap-title">End of Q6 2023</span>
                                                                             <div class="roadmap-content">
                                                                                 <span class="dot"></span>
-                                                                                <h4 class="title">App beta test</h4>
+                                                                                <h4 class="title">Website Launched</h4>
                                                                                 <span>Public testnet launch</span>
                                                                                 <span>SubQuery Network Explorer and dApp</span>
                                                                                 <span>Point-in-time indexing</span>
                                                                             </div>
                                                                         </div>
                                                                         <div class="bt-roadmap-item">
-                                                                            <span class="roadmap-title">start of Q7 2024</span>
+                                                                            <span class="roadmap-title">start of 2024</span>
                                                                             <div class="roadmap-content">
                                                                                 <span class="dot"></span>
                                                                                 <h4 class="title">Successful transaction</h4>
@@ -464,7 +465,7 @@ const Homepage = () => {
                                                                             </div>
                                                                         </div>
                                                                         <div class="bt-roadmap-item">
-                                                                            <span class="roadmap-title">Mid of Q8 2024</span>
+                                                                            <span class="roadmap-title">Mid of 2024</span>
                                                                             <div class="roadmap-content">
                                                                                 <span class="dot"></span>
                                                                                 <h4 class="title">Alpha Test</h4>
@@ -475,7 +476,7 @@ const Homepage = () => {
                                                                             </div>
                                                                         </div>
                                                                         <div class="bt-roadmap-item">
-                                                                            <span class="roadmap-title">Mid of Q9 2024</span>
+                                                                            <span class="roadmap-title">End of Q9 2024</span>
                                                                             <div class="roadmap-content">
                                                                                 <span class="dot"></span>
                                                                                 <h4 class="title">Benefits</h4>
@@ -485,7 +486,7 @@ const Homepage = () => {
                                                                             </div>
                                                                         </div>
                                                                         <div class="bt-roadmap-item">
-                                                                            <span class="roadmap-title">Mid of 10 2024</span>
+                                                                            <span class="roadmap-title">Future Plan & Goals</span>
                                                                             <div class="roadmap-content">
                                                                                 <span class="dot"></span>
                                                                                 <h4 class="title">Operational</h4>
@@ -502,225 +503,12 @@ const Homepage = () => {
                                             </section>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-9ae36c9 elementor-widget elementor-widget-whitepaper"
-                                        data-id="9ae36c9" data-element_type="widget" data-widget_type="whitepaper.default">
-                                        <div class="elementor-widget-container">
-                                            <section class="document-area">
-                                                <div class="container">
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-lg-7 order-2 order-lg-0">
-                                                            <div class="document-img text-center wow fadeInUp"
-                                                                data-wow-delay=".2s">
-                                                                <img decoding="async"
-                                                                    src="https://themedox.com/bigtech/wp-content/uploads/2023/03/document_img.png"
-                                                                    alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-5 col-md-7">
-                                                            <div class="document-content mt-50 wow fadeInRight"
-                                                                data-wow-delay=".2s">
-                                                                <div class="section-title mb-35">
-                                                                    <span class="sub-title">Whitepaper</span>
-                                                                    <h2 class="title">Read Our latest <span>Documents</span></h2>
-                                                                </div>
-                                                                <ul class="document-list">
-                                                                    <li>White Paper</li>
-                                                                    <li>Privacy &amp; Policy</li>
-                                                                    <li>Terms And Conditions</li>
-                                                                    {/* <li>One Pager</li> */}
-                                                                </ul><a
-                                                                    href="https://drive.google.com/file/d/13B2QZTlvtcdlkR9O28ldB8tT8iR0pcK1/view"
-                                                                    target="_blank" rel="nofollow" class="btn">Download Doc</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </section>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <section
-                        class="elementor-section elementor-top-section elementor-element elementor-element-e1f73df elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                        data-id="e1f73df" data-element_type="section"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-197cecd"
-                                data-id="197cecd" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-9fdf0c9 elementor-widget elementor-widget-tg-team"
-                                        data-id="9fdf0c9" data-element_type="widget" data-widget_type="tg-team.default">
-                                        <div class="elementor-widget-container">
-                                            <section id="team" class="team-area pt-130">
-                                                <div class="container">
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-xl-6">
-                                                            <div class="section-title text-center mb-70">
-                                                                <span class="sub-title">Our team</span>
-                                                                <h2 class="title">The Leadership <br /> <span>Team</span></h2>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-xl-3 col-md-4 col-sm-6">
-                                                            <div class="team-item">
-                                                                {/* <div class="team-thumb">
-                                                                    <img decoding="async"
-                                                                        src="https://themedox.com/bigtech/wp-content/uploads/2023/03/team_img01.png"
-                                                                        alt="" />
-                                                                </div> */}
-                                                                <div class="team-content">
-                                                                    <h2 class="title">Cameron Williamson</h2><span
-                                                                        class="designation">Founder &amp; CO</span>
-                                                                    <div class="team-social">
-                                                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                        <a href="#"><i class="fab fa-telegram-plane"></i></a>
-                                                                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-xl-3 col-md-4 col-sm-6">
-                                                            <div class="team-item">
-                                                                {/* <div class="team-thumb">
-                                                                    <img decoding="async"
-                                                                        src="https://themedox.com/bigtech/wp-content/uploads/2023/03/team_img02.png"
-                                                                        alt="" />
-                                                                </div> */}
-                                                                <div class="team-content">
-                                                                    <h2 class="title">Eleanor Pena</h2><span
-                                                                        class="designation">Head of Design</span>
-                                                                    <div class="team-social">
-                                                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                        <a href="#"><i class="fab fa-telegram-plane"></i></a>
-                                                                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-xl-3 col-md-4 col-sm-6">
-                                                            <div class="team-item">
-                                                                {/* <div class="team-thumb">
-                                                                    <img decoding="async"
-                                                                        src="https://themedox.com/bigtech/wp-content/uploads/2023/03/team_img03.png"
-                                                                        alt="" />
-                                                                </div> */}
-                                                                <div class="team-content">
-                                                                    <h2 class="title">Bessie Cooper</h2><span
-                                                                        class="designation">Vp People</span>
-                                                                    <div class="team-social">
-                                                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                        <a href="#"><i class="fab fa-telegram-plane"></i></a>
-                                                                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-xl-3 col-md-4 col-sm-6">
-                                                            <div class="team-item">
-                                                                {/* <div class="team-thumb">
-                                                                    <img decoding="async"
-                                                                        src="https://themedox.com/bigtech/wp-content/uploads/2023/03/team_img04.png"
-                                                                        alt="" />
-                                                                </div> */}
-                                                                <div class="team-content">
-                                                                    <h2 class="title">Darlene Robertson</h2><span
-                                                                        class="designation">Product Manager</span>
-                                                                    <div class="team-social">
-                                                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                        <a href="#"><i class="fab fa-telegram-plane"></i></a>
-                                                                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        {/* <div class="col-xl-3 col-md-4 col-sm-6">
-                                                            <div class="team-item">
-                                                                <div class="team-thumb">
-                                                                    <img decoding="async"
-                                                                        src="https://themedox.com/bigtech/wp-content/uploads/2023/03/team_img05.png"
-                                                                        alt="" />
-                                                                </div>
-                                                                <div class="team-content">
-                                                                    <h2 class="title">Jacob Jones</h2><span
-                                                                        class="designation">Marketer</span>
-                                                                    <div class="team-social">
-                                                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                        <a href="#"><i class="fab fa-flickr"></i></a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-xl-3 col-md-4 col-sm-6">
-                                                            <div class="team-item">
-                                                                <div class="team-thumb">
-                                                                    <img decoding="async"
-                                                                        src="https://themedox.com/bigtech/wp-content/uploads/2023/03/team_img06.png"
-                                                                        alt="" />
-                                                                </div>
-                                                                <div class="team-content">
-                                                                    <h2 class="title">Courtney Henry</h2><span
-                                                                        class="designation">Founder</span>
-                                                                    <div class="team-social">
-                                                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-xl-3 col-md-4 col-sm-6">
-                                                            <div class="team-item">
-                                                                <div class="team-thumb">
-                                                                    <img decoding="async"
-                                                                        src="https://themedox.com/bigtech/wp-content/uploads/2023/03/team_img07.png"
-                                                                        alt="" />
-                                                                </div>
-                                                                <div class="team-content">
-                                                                    <h2 class="title">Ronald Richards</h2><span
-                                                                        class="designation">Account Manager</span>
-                                                                    <div class="team-social">
-                                                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-xl-3 col-md-4 col-sm-6">
-                                                            <div class="team-item">
-                                                                <div class="team-thumb">
-                                                                    <img decoding="async"
-                                                                        src="https://themedox.com/bigtech/wp-content/uploads/2023/03/team_img08.png"
-                                                                        alt="" />
-                                                                </div>
-                                                                <div class="team-content">
-                                                                    <h2 class="title">Theresa Webb</h2><span
-                                                                        class="designation">Founder &amp; CO</span>
-                                                                    <div class="team-social">
-                                                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div> */}
-                                                    </div>
-                                                </div>
-                                            </section>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+
                     <section
                         class="elementor-section elementor-top-section elementor-element elementor-element-948c8fc elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                         data-id="948c8fc" data-element_type="section" id="contact-us"
@@ -745,40 +533,43 @@ const Homepage = () => {
                                                     <div class="contact-info-wrap">
                                                         <div class="row justify-content-center">
                                                             <div class="col-lg-4 col-sm-6">
-                                                                <div class="contact-info-item">
-                                                                    <div class="icon cursor-pointer">
-                                                                        <span class="icon-background"></span>
-                                                                        <i aria-hidden="true" class="far fa-envelope"></i>
+                                                                <a href="mailto:info@usdtexchanges.com" target="_blank" rel="noopener noreferrer">
+                                                                    <div class="contact-info-item">
+                                                                        <div class="icon cursor-pointer">
+                                                                            <span class="icon-background"></span>
+                                                                            <i aria-hidden="true" class="far fa-envelope"></i>
+                                                                        </div>
+                                                                        <div class="content">
+                                                                            <p class="contact-desc">Email: <br />info@usdtexchanges.com</p>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="content">
-                                                                        <p class="contact-desc">company@gmail.com <br />
-                                                                            infoweb@gmail.com</p>
-                                                                    </div>
-                                                                </div>
+                                                                </a>
                                                             </div>
                                                             <div class="col-lg-4 col-sm-6">
-                                                                <div class="contact-info-item">
-                                                                    <div class="icon cursor-pointer">
-                                                                        <span class="icon-background"></span>
-                                                                        <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                                                                <a href="http://wa.me/09691651221" target="_blank" rel="noopener noreferrer">
+                                                                    <div class="contact-info-item">
+                                                                        <div class="icon cursor-pointer">
+                                                                            <span class="icon-background"></span>
+                                                                            <i aria-hidden="true" class="fab fa-whatsapp"></i>
+                                                                        </div>
+                                                                        <div class="content">
+                                                                            <p class="contact-desc">Whatsapp: <br /> Xi AN</p>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="content">
-                                                                        <p class="contact-desc">+84 0977425031<br /> +998 765 775
-                                                                            34</p>
-                                                                    </div>
-                                                                </div>
+                                                                </a>
                                                             </div>
                                                             <div class="col-lg-4 col-sm-6">
-                                                                <div class="contact-info-item">
-                                                                    <div class="icon cursor-pointer">
-                                                                        <span class="icon-background"></span>
-                                                                        <i aria-hidden="true" class="fab fa-telegram-plane"></i>
+                                                                <a href="https://t.me/Xian572" target="_blank" rel="noopener noreferrer">
+                                                                    <div class="contact-info-item">
+                                                                        <div class="icon cursor-pointer">
+                                                                            <span class="icon-background"></span>
+                                                                            <i aria-hidden="true" class="fab fa-telegram-plane"></i>
+                                                                        </div>
+                                                                        <div class="content">
+                                                                            <p class="contact-desc">Telegram: <br />Xian572</p>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="content">
-                                                                        <p class="contact-desc">Telegram: <br />Georgia
-                                                                            198</p>
-                                                                    </div>
-                                                                </div>
+                                                                </a>
                                                             </div>
                                                         </div>
                                                     </div>

@@ -1,6 +1,18 @@
 import React from 'react';
+import Swal from 'sweetalert2';
 
 const Contact_Form = () => {
+    const handleButtonClick = () => {
+        // Trigger SweetAlert
+        Swal.fire({
+            icon: 'success',
+            title: 'Message sent successfully!',
+            showConfirmButton: false,
+            timer: 1500, // Close the alert after 1.5 seconds
+        });
+    };
+
+
     return (
         <form>
             <div class="contact-form-wrap"
@@ -65,12 +77,15 @@ const Contact_Form = () => {
                                     placeholder="Enter your massage"
                                     name="your-message"></textarea></span>
                         </div>
-                        <div class="submit-btn text-center">
-                            <input
-                                class="wpcf7-form-control has-spinner wpcf7-submit btn"
-                                type="submit" value="Send Massage" />
+
+
+                        <div className='flex justify-center'>
+                            <div onClick={handleButtonClick}
+                                className='uppercase text-[13px] inline border-[2px] py-3 px-[34px] border-[#00c4f4] duration-300 rounded-full cursor-pointer hover:text-[#00c4f4] font-bold' >Send Massage
+                            </div>
                         </div>
-                        <div class="wpcf7-response-output" aria-hidden="true"></div>
+                        {/* <input type="submit" value="kjhu" /> */}
+                        {/* <div class="wpcf7-response-output" aria-hidden="true"></div> */}
                     </form>
                 </div>
             </div>
